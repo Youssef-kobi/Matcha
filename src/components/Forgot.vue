@@ -1,7 +1,7 @@
 <template>
 <v-container class="forgot mt-5">
   <h1 class="page-header display-3 font-weight-light grey--text">Recover password</h1>
-  <p class="subheading grey--text mt-3">Please provide your email adresse in order to change your password</p>
+  <p class="subheading grey--text mt-3">Please provide your email</p>
   <v-layout row align-baseline>
     <v-text-field @keyup.13="recover" color="primary" outlined solo class="my-5" v-model="email" label="Email" required ></v-text-field>
     <v-btn large outlined color="primary" dark @click.prevent="recover" class="ml-0 py-3 send_btn">Send</v-btn>
